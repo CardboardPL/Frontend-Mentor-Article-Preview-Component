@@ -6,6 +6,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="./styles/general.css">
+  <link rel="stylesheet" type="text/css" href="./styles/main.css">
+  <link rel="stylesheet" type="text/css" href="./styles/article.css">
   <link rel="stylesheet" type="text/css" href="./styles/utility.css">
   <title>Frontend Mentor | Article preview component</title>
 
@@ -21,18 +23,25 @@
     <article class="article-preview-component">
       <img src="./images/drawers.jpg" alt="Drawers">
       <div class="article-preview-component-content">
-        <h2 class="article-preview-title">
-          Shift the overall look and feel by adding these wonderful 
-          touches to furniture in your home
-        </h2>
-  
-        <p class="article-preview-description">Ever been in a room and felt like something was missing? Perhaps 
-          it felt slightly bare and uninviting. I’ve got some simple tips 
-          to help you make any room feel complete.</p>
+        <section>
+          <h2 class="article-preview-title">
+            Shift the overall look and feel by adding these wonderful 
+            touches to furniture in your home
+          </h2>
+    
+          <p class="article-preview-description">Ever been in a room and felt like something was missing? Perhaps 
+            it felt slightly bare and uninviting. I’ve got some simple tips 
+            to help you make any room feel complete.</p>
+        </section>
     
         <footer class="article-preview-footer">
-          <span class="article-author">Michelle Appleton</span>
-          <time class="article-date" datetime="2022-06-28">28 Jun 2020</time>
+          <div class="author-info-wrapper">
+            <img src="./images/avatar-michelle.jpg" alt="Author Avatar">
+            <div class="author-info">
+              <span class="article-author">Michelle Appleton</span>
+              <time class="article-date" datetime="2022-06-28">28 Jun 2020</time>
+            </div>
+          </div>
       
           <div class="share-btn-wrapper">
             <button class="share-btn" data-active="false">
