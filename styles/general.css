@@ -3,7 +3,7 @@
 :root {
   --headerTextColor: hsl(217, 19%, 35%);
   --bodyTextColor: hsl(214, 17%, 51%);
-  --grayish-blue: hsl(212, 23%, 69%);
+  --extraTextColor: hsl(212, 23%, 69%);
   --mainBackgroundColor: hsl(210, 46%, 95%);
   --secondaryBackgroundColor: hsl(0, 0%, 100%);
 }
