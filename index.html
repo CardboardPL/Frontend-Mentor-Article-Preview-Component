@@ -10,62 +10,67 @@
   <link rel="stylesheet" type="text/css" href="./styles/article.css">
   <link rel="stylesheet" type="text/css" href="./styles/attribution.css">
   <link rel="stylesheet" type="text/css" href="./styles/utility.css">
+  <script src="./scripts/toggleVisibility.js" type="text/javascript" defer></script>
   <title>Frontend Mentor | Article preview component</title>
 </head>
 <body>
   <main>
     <h1 class="hidden">Article Preview Component</h1>
     <article class="article-preview-component">
-      <img src="./images/drawers.jpg" alt="Drawers">
-      <div class="article-preview-component-content">
-        <section>
-          <h2 class="article-preview-title">
-            Shift the overall look and feel by adding these wonderful 
-            touches to furniture in your home
-          </h2>
-    
-          <p class="article-preview-description">Ever been in a room and felt like something was missing? Perhaps 
-            it felt slightly bare and uninviting. I’ve got some simple tips 
-            to help you make any room feel complete.</p>
-        </section>
-    
-        <footer class="article-preview-footer">
-          <div class="author-info-wrapper">
-            <img src="./images/avatar-michelle.jpg" alt="Author Avatar">
-            <div class="author-info">
-              <span class="article-author">Michelle Appleton</span>
-              <time class="article-date" datetime="2022-06-28">28 Jun 2020</time>
-            </div>
-          </div>
+      <div class="content-wrapper">
+        <img src="./images/drawers.jpg" alt="Drawers">
+        <div class="article-preview-component-content">
+          <section>
+            <h2 class="article-preview-title">
+              Shift the overall look and feel by adding these wonderful 
+              touches to furniture in your home
+            </h2>
       
-          <div class="share-btn-wrapper">
-            <button class="share-btn" data-active="false">
-              <img src="./images/icon-share.svg" alt="Share">
-            </button>
-
-            <div class="share-popup hidden">
-              <span>Share</span>
-              <ul class="share-links">
-                <li>
-                  <a rel="noreferrer noopener" href="#">
-                    <img src="./images/icon-facebook.svg" alt="Facebook">
-                  </a>
-                </li>
-
-                <li>
-                  <a rel="noreferrer noopener" href="#">
-                    <img src="./images/icon-twitter.svg" alt="Twitter">
-                  </a>
-                </li>
-                <li>
-                  <a rel="noreferrer noopener" href="#">
-                    <img src="./images/icon-pinterest.svg" alt="Pinterest">
-                  </a>
-                </li>
-              </ul>
+            <p class="article-preview-description">Ever been in a room and felt like something was missing? Perhaps 
+              it felt slightly bare and uninviting. I’ve got some simple tips 
+              to help you make any room feel complete.</p>
+          </section>
+      
+          <footer class="article-preview-footer">
+            <div class="author-info-wrapper">
+              <img src="./images/avatar-michelle.jpg" alt="Author Avatar">
+              <div class="author-info">
+                <span class="article-author">Michelle Appleton</span>
+                <time class="article-date" datetime="2022-06-28">28 Jun 2020</time>
+              </div>
             </div>
-          </div>
-        </footer>
+        
+            <div class="share-btn-wrapper">
+              <button class="share-btn" data-active="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" aria-label="Share">
+                  <path fill="currentColor" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/>
+                </svg>
+              </button>
+
+              <div class="share-popup hidden" aria-hidden="true">
+                <span>Share</span>
+                <ul class="share-links">
+                  <li>
+                    <a rel="noreferrer noopener" href="#">
+                      <img src="./images/icon-facebook.svg" alt="Facebook">
+                    </a>
+                  </li>
+
+                  <li>
+                    <a rel="noreferrer noopener" href="#">
+                      <img src="./images/icon-twitter.svg" alt="Twitter">
+                    </a>
+                  </li>
+                  <li>
+                    <a rel="noreferrer noopener" href="#">
+                      <img src="./images/icon-pinterest.svg" alt="Pinterest">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </footer>
+        </div>
       </div>
     </article>
   </main>
