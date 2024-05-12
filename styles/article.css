@@ -4,7 +4,7 @@
   height: 21.53846153846154rem;
   border-radius: 0.7692307692307692rem;
   margin: 0 0.5rem;
-  box-shadow: 0 0.4615384615384615rem 1rem hsla(214, 17%, 51%, 0.5);
+  box-shadow: 0 2rem 2rem hsla(214, 17%, 51%, 0.2);
 }
 
 .article-preview-component > .content-wrapper {
