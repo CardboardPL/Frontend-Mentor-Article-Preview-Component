@@ -14,6 +14,7 @@
   border-radius: 0.7692307692307692rem;
   margin: 0 auto;
   overflow: hidden;
+  box-shadow: 0 0.4615384615384615rem 0.7692307692307692rem hsla(217, 19%, 35%, 0.8);
 }
 
 .article-preview-component > .content-wrapper > img {
@@ -22,6 +23,7 @@
   height: 100%;
   object-fit: cover;
   object-position: left;
+  filter: brightness(105%);
 }
 
 .article-preview-component-content {
